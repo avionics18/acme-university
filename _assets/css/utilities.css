@@ -1,0 +1,21 @@
+.bg-lighter{
+	background-color: #ebebeb;
+}
+.ff-work{
+	font-family: 'Work Sans', sans-serif;
+}
+.ff-poppins,h1,h2,h3,h4,h5,h6{
+	font-family: 'Poppins', sans-serif;
+}
+.ff-roboto, p, ul li, a, span{
+	font-family: 'Roboto Slab', serif;
+}
+.list-style-square{
+	list-style: square;
+}
+.border-width-5{
+	border-width: 5px !important;
+}
+.rectangle{
+	height: 100px;
+}

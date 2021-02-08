@@ -1,0 +1,128 @@
+/**{ outline: 1px solid rgba(255,0,0,0.2); }*/
+body{
+  background-color: var(--light);
+}
+
+
+
+/*Header Top*/
+.header-top .nav-item .nav-link{
+  border-left: 1px solid rgba(255,255,255,0.15);
+}
+.header-top .nav-item:last-Child .nav-link{
+  border-right: 1px solid rgba(255,255,255,0.15);
+}
+
+/*Logo Banner*/
+.logo-banner{
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 40%, rgba(255,255,255,0.65) 100%), url('../imgs/college-website-cover.jpg') no-repeat center;
+  background-size: contain;
+  background-position: top right;
+}
+
+/*Navbar*/
+@media (min-width: 768px) {
+  header .navbar-wrapper{
+    border-top: 2px solid var(--danger);
+  }
+  header .navbar{
+    padding: 0;
+  }
+  #main-navbar .nav-item{
+  	font-size: 0.9rem;
+    border-bottom: 5px solid transparent;
+    transition: 0.2s;
+  }
+  #main-navbar .nav-item.active,
+  #main-navbar .nav-item:hover{
+    background-color: #000;
+    border-bottom-color: var(--danger);
+  }
+  #main-navbar .nav-link{
+    padding: 12px 16px 8px 16px;
+    transition: 0.2s;
+  }
+  #main-navbar .dropdown-menu{
+    font-size: 0.9rem;
+    margin-top: 5px;
+    border-radius: 0px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    border-bottom-color: var(--danger);
+    border-bottom-width: 3px;
+  }
+  #main-navbar .dropdown-item:hover{
+    background-color: #f4f4f4;
+  }
+  #main-navbar .dropdown-item:active{
+    background-color: var(--danger);
+  }
+}
+@media (max-width: 767.98px) {
+  #main-navbar .navbar-nav{
+    border-top: 1px solid rgba(255,255,255,0.15);
+    margin-top: 10px;
+  }
+  #main-navbar .dropdown-item{
+    white-space: normal;
+    font-size: 0.9rem;
+  }
+}
+
+
+
+/*General Carousel*/
+.custom-slick-progress {
+  display: block;
+  width: 100%;
+  height: 6px;
+  overflow: hidden;
+  background-color: #ebebeb;
+  background-image: linear-gradient(
+    to right,
+    var(--secondary),
+    var(--secondary)
+  );
+  background-repeat: no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.4s ease-in-out;
+}
+.custom-slick-navigation .btn {
+  padding: 0 1rem !important;
+}
+
+
+/*Notice & Announcements*/
+#notice, #announcements{
+  height: 320px;
+  overflow-y: auto;
+}
+
+
+
+
+/*News Section*/
+.img-card{
+  min-width: 200px;
+  height: auto;
+}
+@media (max-width: 767.98px) {
+  .img-card{
+    width: 100%;
+    height: 200px;
+  }
+}
+
+
+.showcase{
+  background: linear-gradient(0deg, rgba(180, 40, 40, 0.9), rgba(180, 40, 40, 0.9)), url('../imgs/college-website-cover.jpg') no-repeat center;
+  background-size: cover;
+}
+
+
+/*Footer*/
+footer .footer-top a{
+  color: #92969a;
+}
+footer .footer-top a:hover{
+  color: #e9eef3;
+}

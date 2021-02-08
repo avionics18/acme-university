@@ -10,17 +10,46 @@ Just learning the basics of building websites using PHP.
 
 ### What I Learnt!
 
+So in the includes folder, I would have a config.php that looked like this:
+
+**For Local Developement**
+
 ```php
 <?php 
-	define("BASE_URL", "/university-master/");
-	define("ROOT_PATH", $_SERVER["DOCUMENT_ROOT"] . "/university-master/");
-	$page = "home";
-	
+	define("BASE_URL", "/{{Folder_Name}}/");
+	define("ROOT_PATH", $_SERVER["DOCUMENT_ROOT"] . "/{{Folder_Name}}/");
+
 	$header_path = ROOT_PATH . "_includes/header.php";
 	$footer_path = ROOT_PATH . "_includes/footer.php";
 	$sidebar_path = ROOT_PATH . "_includes/sidebar.php";
-	include_once($header_path);
+?>
+```
+
+**For Actual Server**
+
+```php
+<?php 
+	define("BASE_URL", "/{{https://website.com}}/");
+	define("ROOT_PATH", $_SERVER["DOCUMENT_ROOT"] . "/");
+
+	$header_path = ROOT_PATH . "_includes/header.php";
+	$footer_path = ROOT_PATH . "_includes/footer.php";
+	$sidebar_path = ROOT_PATH . "_includes/sidebar.php";
+?>
+```
+
+**Page Content**: Now in every page you just need to include this
+
+```php
+<?php
+	$page = "home";
+	//now we can use our config file
+	require_once("path/to/config.php");
+	include($header_path");
 ?>
 
-<?php include_once($footer_path); ?>
+<!--now we can continue our file with the content of this page here-->
+
+<?php include($footer_path); ?>
 ```
+

@@ -12,8 +12,8 @@ Just learning the basics of building websites using PHP.
 
 ```php
 <?php 
-	define("BASE_URL", "/university/");
-	define("ROOT_PATH", $_SERVER["DOCUMENT_ROOT"] . "/university/");
+	define("BASE_URL", "/university-master/");
+	define("ROOT_PATH", $_SERVER["DOCUMENT_ROOT"] . "/university-master/");
 	$page = "home";
 	
 	$header_path = ROOT_PATH . "_includes/header.php";

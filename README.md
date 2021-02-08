@@ -1,7 +1,5 @@
 # University Website
 
----
-
 Just learning the basics of building websites using PHP.
 
 ### Resources
@@ -11,8 +9,6 @@ Just learning the basics of building websites using PHP.
 
 
 ### What I Learnt!
-
----
 
 ```php
 <?php 

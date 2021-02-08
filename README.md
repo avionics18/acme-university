@@ -12,11 +12,13 @@ Just learning the basics of building websites using PHP.
 
 ```php
 <?php 
-	define("BASE_URL", "/college-website/");
-	define("ROOT_PATH", $_SERVER["DOCUMENT_ROOT"] . "/college-website/");
+	define("BASE_URL", "/university/");
+	define("ROOT_PATH", $_SERVER["DOCUMENT_ROOT"] . "/university/");
+	$page = "home";
 	
-	$header_path = ROOT_PATH . "includes/header.php";
-	$footer_path = ROOT_PATH . "includes/footer.php";
+	$header_path = ROOT_PATH . "_includes/header.php";
+	$footer_path = ROOT_PATH . "_includes/footer.php";
+	$sidebar_path = ROOT_PATH . "_includes/sidebar.php";
 	include_once($header_path);
 ?>
 

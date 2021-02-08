@@ -23,9 +23,9 @@ $(document).ready(function () {
 
 // About IIT ISM Slick Carousel 
 $(document).ready(function () {
-  var $slider = $("#about-iit-ism-carousel");
-  var $progressBar = $("#about-iit-ism-carousel-progress");
-  var $progressBarLabel = $("#about-iit-ism-carousel-progress .slider__label");
+  var $slider = $("#about-acme-carousel");
+  var $progressBar = $("#about-acme-carousel-progress");
+  var $progressBarLabel = $("#about-acme-carousel-progress .slider__label");
 
   $slider.on("beforeChange", function (event, slick, currentSlide, nextSlide) {
     var calc = (nextSlide / (slick.slideCount - 1)) * 100;
@@ -38,8 +38,8 @@ $(document).ready(function () {
   });
 
   $slider.slick({
-    prevArrow: $("#about-iit-ism-carousel-navigation .prev"),
-    nextArrow: $("#about-iit-ism-carousel-navigation .next")
+    prevArrow: $("#about-acme-carousel-navigation .prev"),
+    nextArrow: $("#about-acme-carousel-navigation .next")
   });
 });
 

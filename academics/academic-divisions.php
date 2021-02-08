@@ -59,7 +59,7 @@ include_once($header_path);
 							<li><a href="#" class="text-danger">Centre for Formal Design and Verification of Software (CFDVS)</a></li>
 							<li><a href="#" class="text-danger">Centre for Urban Science and Engineering (C-USE)</a></li>
 							<li><a href="#" class="text-danger">Desai Sethi Centre for Entrepreneurship (DSCE)</a></li>
-							<li><a href="#" class="text-danger">IITB-Monash Research Academy</a></li>
+							<li><a href="#" class="text-danger">ACME-Monash Research Academy</a></li>
 							<li><a href="#" class="text-danger">National Centre for Aerospace Innovation and Research (NCAIR)</a></li>
 							<li><a href="#" class="text-danger">National Center of Excellence in Technology for Internal Security (NCETIS)</a></li>
 							<li><a href="#" class="text-danger">National Centre for Mathematics (NCM)</a></li>

@@ -22,12 +22,12 @@
               <li><a href="#!">Areas of Expertise</a></li>
               <li><a href="#!">Technologies for Licensing</a></li>
               <li><a href="#!">Research Publications</a></li>
-              <li><a href="#!">IIT DHN Research Park</a></li>
+              <li><a href="#!">ACME Research Park</a></li>
               <li><a href="#!">Laboratory Safety</a></li>
             </ul>
           </div> <!-- col-lg-3 -->
           <div class="col-lg-3">
-            <h6 class="text-light font-weight-bold border-left border-light pl-2">Explore IIT DHN</h6>
+            <h6 class="text-light font-weight-bold border-left border-light pl-2">Explore ACME</h6>
             <ul class="pl-3 text-secondary small">
               <li><a href="#!">Campus Map</a></li>
               <li><a href="#!">Photo Gallery</a></li>
@@ -47,7 +47,7 @@
               <li><a href="#!">Vendor's Corner</a></li>
               <li><a href="#!">SC-ST-OBC Liaison Cell</a></li>
               <li><a href="#!">Gender Cell (AKA Women's Cell)</a></li>
-              <li><a href="#!">IIT DHN Policy on Sexual</a></li>
+              <li><a href="#!">ACME Policy on Sexual</a></li>
               <li><a href="#!">Harassment</a></li>
               <li><a href="#!">Facilities</a></li>
               <li><a href="#!">Internal Links</a></li>
@@ -59,7 +59,7 @@
       </div>
     </div>
     <div class="container">
-      <p class="m-0 py-4 text-center text-secondary">Copyright &copy; <a href="<?php echo BASE_URL; ?>" class="text-light">College Website</a> 2020 | All Rights Reserved</p>
+      <p class="m-0 py-4 text-center text-secondary">Copyright &copy; <a href="<?php echo BASE_URL; ?>" class="text-light">ACME University</a> 2021 | All Rights Reserved</p>
     </div>
   </footer>
 

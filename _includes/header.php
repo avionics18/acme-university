@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>University Master</title>
+  <title><?php echo ucfirst($page); ?> | ACME University</title>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <!-- Custom CSS -->
@@ -39,7 +39,7 @@
       <div class="container">
         <a href="<?php echo BASE_URL; ?>" class="d-flex align-items-center text-decoration-none">
           <img class="mr-2" width="60px" src="<?php echo BASE_URL . "_assets/imgs/college-website-logo.png" ?>" alt="college website logo">
-          <h1 class="ff-work text-dark font-weight-bold m-0">FMS <span class="ff-work text-danger font-weight-bold">Delhi</span></h1>
+          <h1 class="ff-work text-dark font-weight-bold m-0">ACME <span class="ff-work text-danger font-weight-bold">University</span></h1>
         </a>
       </div>
     </div>
@@ -59,7 +59,7 @@
                   About Us
                 </a>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="<?php echo BASE_URL . "about-us/about-iit-ism.php"; ?>">About IIT(ISM)</a>
+                  <a class="dropdown-item" href="<?php echo BASE_URL . "about-us/about-acme.php"; ?>">About ACME</a>
                   <a class="dropdown-item" href="<?php echo BASE_URL . "about-us/directors-message.php"; ?>">Director's Message</a>
                   <a class="dropdown-item" href="<?php echo BASE_URL . "about-us/our-history.php"; ?>">Our History</a>
                   <a class="dropdown-item" href="<?php echo BASE_URL . "about-us/our-mission-and-vision.php"; ?>">Our Mission &amp; Vision</a>
@@ -71,7 +71,7 @@
                 </a>
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="<?php echo BASE_URL . "academics/overview.php"; ?>">Overview</a>
-                  <a class="dropdown-item" href="<?php echo BASE_URL . "academics/academic-divisions.php"; ?>">Academic Departments</a>
+                  <a class="dropdown-item" href="<?php echo BASE_URL . "academics/academic-divisions.php"; ?>">Academic Divisions</a>
                 </div>
               </li>
               <li class="nav-item dropdown <?php if($page == "students") echo "active"; ?>">
@@ -92,14 +92,14 @@
                   Faculty
                 </a>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Facilities at IIT Dhanbad</a>
+                  <a class="dropdown-item" href="#">Facilities at ACME</a>
                   <a class="dropdown-item" href="#">Prospective Faculty</a>
                   <a class="dropdown-item" href="#">Current Faculty</a>
                   <a class="dropdown-item" href="#">Retired Faculty</a>
                   <a class="dropdown-item" href="#">Awards &amp; Honours</a>
                   <a class="dropdown-item" href="#">Chair Professorship</a>
                   <a class="dropdown-item" href="#">Gender Cell(AKA Women's Cell)</a>
-                  <a class="dropdown-item" href="#">IIT DHN Research Park</a>
+                  <a class="dropdown-item" href="#">ACME Research Park</a>
                 </div>
               </li>
               <li class="nav-item dropdown <?php if($page == "alumni") echo "active"; ?>">
@@ -107,7 +107,7 @@
                   Alumni
                 </a>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">IIT DHN Alumni Office</a>
+                  <a class="dropdown-item" href="#">ACME Alumni Office</a>
                   <a class="dropdown-item" href="#">Alumni Association</a>
                 </div>
               </li>
@@ -116,14 +116,14 @@
                   Industry
                 </a>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">IIT DHN Research Park</a>
+                  <a class="dropdown-item" href="#">ACME Research Park</a>
                   <a class="dropdown-item" href="#">SARC</a>
                   <a class="dropdown-item" href="#">Consultancy &amp; Research</a>
                   <a class="dropdown-item" href="#">Continuing Education</a>
                   <a class="dropdown-item" href="#">Analytical Measurements</a>
                   <a class="dropdown-item" href="#">Technology Transfer &amp; Licensing</a>
                   <a class="dropdown-item" href="#">Donor Relationship</a>
-                  <a class="dropdown-item" href="#">Placements at IIT DHN</a>
+                  <a class="dropdown-item" href="#">Placements at ACME</a>
                   <a class="dropdown-item" href="#">Vendor's Corner</a>
                   <a class="dropdown-item" href="#">Tenders</a>
                   <a class="dropdown-item" href="#">GST Registration Details</a>
@@ -141,7 +141,7 @@
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="#">Public Relations Office</a>
                   <a class="dropdown-item" href="#">News Hub</a>
-                  <a class="dropdown-item" href="#">Research at IIT Dhanbad</a>
+                  <a class="dropdown-item" href="#">Research at ACME</a>
                   <a class="dropdown-item" href="#">Photo Gallery</a>
                 </div>
               </li>

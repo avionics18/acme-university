@@ -103,7 +103,7 @@ include_once($header_path);
 								<div class="card h-100">
 									<div class="card-body">
 										<p class="m-0">
-											<a href="#" class="font-weight-bold text-secondary">Exchange Opportunities for ISM Students</a>
+											<a href="#" class="font-weight-bold text-secondary">Exchange Opportunities for ACMEians</a>
 										</p>
 									</div>
 									<div class="card-footer">

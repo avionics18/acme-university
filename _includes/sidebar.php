@@ -13,51 +13,45 @@
 	<div class="card-body">
 		<!-- Slick Slider -->
 		<div>
-			<!-- Progress Bar -->
-			<div>
-				<div id="sidebar-carousel-progress" class="custom-slick-progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="height: 1px !important">
-					<span class="slider__label sr-only"></span>
-				</div>
-			</div>
 			<div id="sidebar-carousel">
 				<div>
-					<div class="card border-0">
-						<div class="card-body text-center">
+					<div class="card text-center pb-3 border-0">
 							<img class="m-auto" src="<?php echo BASE_URL . "_assets/imgs/director.png" ?>" alt="" width="100">
-							<h6 class="font-weight-bold text-danger text-center text-uppercase">Avinash Murmu</h6>
+							<h6 class="font-weight-bold text-danger text-center text-uppercase">Deepak Agarwal</h6>
 							<h6 class="font-weight-bold text-secondary text-center text-uppercase small">BATCH OF '20</h6>
 							<p class="m-0 small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, ex laudantium fugit facere aliquam, voluptate beatae consequatur dolore a quod minus velit, animi, earum veniam repellat error omnis. Soluta, maiores.</p>
-						</div>
 						<!-- .card-body -->
 					</div>
 					<!-- .card -->
 				</div>
 				<div>
-					<div class="card border-0">
-						<div class="card-body text-center">
+					<div class="card text-center pb-3 border-0">
 							<img class="m-auto" src="<?php echo BASE_URL . "_assets/imgs/director.png" ?>" alt="" width="100">
 							<h6 class="font-weight-bold text-danger text-center text-uppercase">Rohan Shandilya</h6>
 							<h6 class="font-weight-bold text-secondary text-center text-uppercase small">BATCH OF '89</h6>
-							<p class="m-0 small">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Modi dicta possimus quam suscipit quisquam odio optio aliquam voluptatibus nostrum? Distinctio, enim, neque, labore ipsam iusto illum asperiores ex doloremque nesciunt temporibus qui eius alias dignissimos ratione ullam dolor amet corrupti. Aliquid, sint aut accusamus itaque unde earum facere quod cumque.</p>
-						</div>
+							<p class="m-0 small">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Modi dicta possimus quam suscipit quisquam odio optio aliquam voluptatibus nostrum? Distinctio, enim, neque, labore ipsam iusto illum asperiores ex doloremque nesciunt temporibus qui eius alias dignissimos ratione ullam dolor amet corrupti. Aliquid, sint aut accusamus itaque unde earum facere.</p>
 						<!-- .card-body -->
 					</div>
 					<!-- .card -->
 				</div>
 				<div>
-					<div class="card border-0">
-						<div class="card-body text-center">
+					<div class="card text-center pb-3 border-0">
 							<img class="m-auto" src="<?php echo BASE_URL . "_assets/imgs/director.png" ?>" alt="" width="100">
-							<h6 class="font-weight-bold text-danger text-center text-uppercase">John Doe</h6>
+							<h6 class="font-weight-bold text-danger text-center text-uppercase">Eklavya Singh</h6>
 							<h6 class="font-weight-bold text-secondary text-center text-uppercase small">BATCH OF '14</h6>
-							<p class="m-0 small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, eveniet facilis quia, corporis, eum ducimus doloremque debitis temporibus consectetur laboriosam dolore incidunt quidem. Minus, ut.</p>
-						</div>
+							<p class="m-0 small">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Labore ipsum neque perspiciatis, cupiditate, assumenda ipsa ex harum. Reiciendis eum distinctio earum, est dicta tempora suscipit, quam obcaecati deserunt vitae voluptatibus.</p>
 						<!-- .card-body -->
 					</div>
 					<!-- .card -->
 				</div>
 			</div>
 			<!-- #sidebar-carousel -->
+			<!-- Progress Bar -->
+			<div>
+				<div id="sidebar-carousel-progress" class="custom-slick-progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="height: 1px !important">
+					<span class="slider__label sr-only"></span>
+				</div>
+			</div>
 		</div>
 		<!-- End of Slick Slider -->
 	</div>

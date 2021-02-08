@@ -57,20 +57,20 @@
 			<h2 class="text-dark font-weight-bold">Welcome UG Freshers Of 2020</h2>
 			<hr>
 			<ul>
-				<li>Main Orientation Program: 10:00 am, 11 Nov 2020: View on <a href="#!" class="text-danger">IIT Bombay Official Channel</a> on YouTube.</li>
+				<li>Main Orientation Program: 10:00 am, 11 Nov 2020: View on <a href="#!" class="text-danger">ACME University Official Channel</a> on YouTube.</li>
 				<li><a href="#" class="text-danger">Schedule of Undergraduate Orientation Program</a> (without meeting links)</li>
 				<li>Please check your email (as registered for JEE-Advanced) for meeting links for all other orientation sessions.</li>
 				<li>
 					Please also keep a watch on the following places for the latest updates
-					<li>Twitter: <a href="#" class="text-danger">https://twitter.com/iitbombay</a></li>
-					<li>Facebook: <a href="#" class="text-danger">https://www.facebook.com/iitbombay</a></li>
+					<li>Twitter: <a href="#" class="text-danger">https://twitter.com/acmeuniversity</a></li>
+					<li>Facebook: <a href="#" class="text-danger">https://www.facebook.com/acmeuniversity</a></li>
 				</li>
-				<li><a href="#" class="text-danger">Information related to the UG Programmes for the New Entrants admitted through JEE Advanced 2020 at IIT Bombay</a></li>
+				<li><a href="#" class="text-danger">Information related to the UG Programmes for the New Entrants admitted through JEE Advanced 2020 at ACME University</a></li>
 			</ul>
 			<br>
 			<h2 class="text-dark font-weight-bold"><i class="fa fa-gift mr-2"></i>Make A Gift</h2>
 			<hr>
-			<p class=""><a href="#!" class="text-danger">Supporting Students with IT Hardware for Online Learning at IIT Dhanbad.</a></p>
+			<p class=""><a href="#!" class="text-danger">Supporting Students with IT Hardware for Online Learning at ACME University.</a></p>
 		</div>
 	</div>
 </div>  <!-- Gift Section -->
@@ -79,7 +79,7 @@
 <!-- Welcome -->
 <div class="welcome-area py-5 bg-white">
 	<div class="container pb-4">
-		<h1 class="font-weight-bold text-secondary">Welcome To The College Website</h1>
+		<h1 class="font-weight-bold text-secondary">Welcome To The University</h1>
 		<p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, unde qui reprehenderit ea consequatur officiis porro saepe voluptas voluptates aperiam ad esse adipisci facere molestiae accusantium totam ex blanditiis cupiditate aliquid repellendus sapiente et eius placeat est corporis! Iusto in eius voluptatem accusantium alias ea? Libero amet reprehenderit, et repellat.</p>
 		<div class="row">
 			<div class="col-lg-6 bg-lighter"></div>

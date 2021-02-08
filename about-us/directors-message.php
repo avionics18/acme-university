@@ -28,8 +28,8 @@
 					<div class="card-body">
 						<div class="bg-light py-3 rounded text-center mb-4">
 							<img width="140px" src="<?php echo BASE_URL . "_assets/imgs/director.png" ?>" alt="IIT ISM Director">
-							<p class="font-weight-bold text-uppercase mb-1 lead ff-poppins">Prof. Rajiv Shekhar</p>
-							<p class="text-uppercase text-secondary small">Director, IIT (ISM) Dhanbad</p>
+							<p class="font-weight-bold text-uppercase mb-1 lead ff-poppins">Prof. Bobby Antony</p>
+							<p class="text-uppercase text-secondary small">Director, ACME University</p>
 						</div>
 						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo sapiente tempore eos veniam est saepe quam, nihil excepturi sint expedita veritatis doloribus mollitia dolorem incidunt doloremque optio officiis velit facere ab atque ex quas et laudantium alias sequi. Veniam, eum!</p>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam id amet, culpa cumque corrupti tempora animi eveniet dolorum eum ducimus, aliquid vel sapiente consequatur, officia! Incidunt, non velit esse, numquam eos culpa odio illo ea rerum voluptatibus nulla vel vitae. Totam ea veritatis, consectetur fugit atque consequuntur delectus itaque fuga numquam similique commodi, maxime! Veritatis sint explicabo voluptatibus tenetur quas, alias unde, non adipisci. Totam corporis officia illum voluptatum, cupiditate!</p>

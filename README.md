@@ -1,4 +1,4 @@
-# University Website
+# ACME University Website
 
 Just learning the basics of building websites using PHP.
 
@@ -37,6 +37,16 @@ So in the includes folder, I would have a config.php that looked like this:
 	$sidebar_path = ROOT_PATH . "_includes/sidebar.php";
 ?>
 ```
+
+You can also check for your development environment by using `$_SERVER["REMOTE_ADDR"]`.
+
+```php
+	if($_SERVER["REMOTE_ADDR"] == "::1"){ /*LOCAL CODE*/ }
+	else{ /*SERVER CODE*/ }
+```
+
+---
+
 
 **Page Content**: Now in every page you just need to include this
 

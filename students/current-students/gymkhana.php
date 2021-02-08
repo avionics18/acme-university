@@ -18,7 +18,7 @@
 <div class="page-content mb-4">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-8">
+			<div class="col-lg-8 mb-3">
 				<div class="card shadow-sm">
 					<div class="card-body">
 						<p>The Students’ Gymkhana along with its infrastructure is an organization to foster and develop all student activities in the Institute. It aims at promoting and developing organizational abilities in students. It has been successful over the years in evolving a well-informed, articulate and participatory student community life. It has been instrumental in identifying student issues and promoting discussion on them. It functions as the office for all election and nominations of students for gymkhana activities.</p>

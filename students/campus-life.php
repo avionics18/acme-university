@@ -18,7 +18,7 @@
 <div class="page-content mb-4">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-8">
+			<div class="col-lg-8 mb-3">
 				<div class="card shadow-sm">
 					<div class="card-body">
 						
@@ -48,7 +48,7 @@
 						<p><a href="#!" class="text-danger">The Registrar’s Office</a> maintains student records, including attendance, class schedules, and grades. This office is where you begin your registration process, request transcripts, obtain enrollment verification, and graduation eligibility.</p>
 					</div> <!-- card-body -->
 				</div> <!-- card -->
-			</div> <!-- col-lg-8 -->
+			</div> <!-- col-lg-8 mb-3 -->
 
 			<div class="col-lg-4">
 				<?php include_once($sidebar_path); ?>

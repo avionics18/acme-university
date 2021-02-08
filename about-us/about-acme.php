@@ -18,7 +18,7 @@
 <div class="page-content mb-4">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-8">
+			<div class="col-lg-8 mb-3">
 				<div class="card shadow-sm">
 					<div class="card-body">
 						<!-- Slick Slider -->

@@ -1,6 +1,6 @@
 <?php 
-	define("BASE_URL", "/university-master/");
-	define("ROOT_PATH", $_SERVER["DOCUMENT_ROOT"] . "/university-master/");
+	define("BASE_URL", "/acme-university/");
+	define("ROOT_PATH", $_SERVER["DOCUMENT_ROOT"] . "/acme-university/");
 
 	$header_path = ROOT_PATH . "_includes/header.php";
 	$footer_path = ROOT_PATH . "_includes/footer.php";

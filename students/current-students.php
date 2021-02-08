@@ -18,7 +18,7 @@
 <div class="page-content mb-4">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-8">
+			<div class="col-lg-8 mb-3">
 				<div class="card shadow-sm">
 					<div class="card-body">
 						<div class="row">
@@ -109,7 +109,7 @@
 						</div> <!-- card row -->
 					</div> <!-- card-body -->
 				</div> <!-- card -->
-			</div> <!-- col-lg-8 -->
+			</div> <!-- col-lg-8 mb-3 -->
 
 			<div class="col-lg-4">
 				<?php include_once($sidebar_path); ?>

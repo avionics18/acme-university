@@ -17,7 +17,7 @@
 <div class="page-content mb-4">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-8">
+			<div class="col-lg-8 mb-3">
 				<div class="card shadow-sm">
 					<div class="card-body">
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Veritatis saepe nemo, non magni eius, minus accusamus, debitis, cum mollitia provident minima itaque explicabo excepturi in labore earum ut repellat dolor impedit ipsum! Illum labore accusantium quisquam vero molestiae officia dignissimos suscipit culpa consectetur aliquam cupiditate quod quidem, vel et rerum.</p>

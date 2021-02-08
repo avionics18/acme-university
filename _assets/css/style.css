@@ -19,6 +19,15 @@ body{
   background-size: contain;
   background-position: top right;
 }
+@media (max-width: 575.98px){
+  .logo-banner {
+    background: linear-gradient(90deg, rgb(255 255 255) 0%, rgb(255 255 255 / 90%) 55%, rgb(255 255 255 / 65%) 100%), url(../imgs/college-website-cover.jpg) no-repeat center;
+    background-size: cover;
+    background-position: top center;
+  }
+}
+
+
 
 /*Navbar*/
 @media (min-width: 768px) {
@@ -65,6 +74,9 @@ body{
   #main-navbar .dropdown-item{
     white-space: normal;
     font-size: 0.9rem;
+  }
+  #main-navbar .dropdown-item:active{
+    background-color: var(--danger);
   }
 }
 

@@ -2,6 +2,8 @@
 
 Just learning the basics of building websites using PHP.
 
+![ACME University](acme-university-1.png)
+
 ### Resources
 
 - [Treehouse](https://teamtreehouse.com/community/how-do-i-correctly-link-my-css-file-to-both-my-indexphp-and-my-include-php-files-when-the-whole-site-is-within-a-folder)

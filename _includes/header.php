@@ -59,10 +59,10 @@
                   About Us
                 </a>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="<?php echo BASE_URL . "about-us/about-acme.php"; ?>">About ACME</a>
-                  <a class="dropdown-item" href="<?php echo BASE_URL . "about-us/directors-message.php"; ?>">Director's Message</a>
-                  <a class="dropdown-item" href="<?php echo BASE_URL . "about-us/our-history.php"; ?>">Our History</a>
-                  <a class="dropdown-item" href="<?php echo BASE_URL . "about-us/our-mission-and-vision.php"; ?>">Our Mission &amp; Vision</a>
+                  <a class="dropdown-item" href="<?php echo BASE_URL . "about-us/about-acme"; ?>">About ACME</a>
+                  <a class="dropdown-item" href="<?php echo BASE_URL . "about-us/directors-message"; ?>">Director's Message</a>
+                  <a class="dropdown-item" href="<?php echo BASE_URL . "about-us/our-history"; ?>">Our History</a>
+                  <a class="dropdown-item" href="<?php echo BASE_URL . "about-us/our-mission-and-vision"; ?>">Our Mission &amp; Vision</a>
                 </div>
               </li>
               <li class="nav-item dropdown <?php if($page == "academics") echo "active"; ?>">
@@ -70,8 +70,8 @@
                   Academics
                 </a>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="<?php echo BASE_URL . "academics/overview.php"; ?>">Overview</a>
-                  <a class="dropdown-item" href="<?php echo BASE_URL . "academics/academic-divisions.php"; ?>">Academic Divisions</a>
+                  <a class="dropdown-item" href="<?php echo BASE_URL . "academics/overview"; ?>">Overview</a>
+                  <a class="dropdown-item" href="<?php echo BASE_URL . "academics/academic-divisions"; ?>">Academic Divisions</a>
                 </div>
               </li>
               <li class="nav-item dropdown <?php if($page == "students") echo "active"; ?>">
@@ -79,9 +79,9 @@
                   Students
                 </a>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="<?php echo BASE_URL . "students/campus-life.php"; ?>">Campus Life</a>
-                  <a class="dropdown-item" href="<?php echo BASE_URL . "students/current-students.php"; ?>">Current Students</a>
-                  <a class="dropdown-item" href="<?php echo BASE_URL . "students/prospective-students.php"; ?>">Prospective Students</a>
+                  <a class="dropdown-item" href="<?php echo BASE_URL . "students/campus-life"; ?>">Campus Life</a>
+                  <a class="dropdown-item" href="<?php echo BASE_URL . "students/current-students"; ?>">Current Students</a>
+                  <a class="dropdown-item" href="<?php echo BASE_URL . "students/prospective-students"; ?>">Prospective Students</a>
                   <a class="dropdown-item" href="#">Gender Cell(AKA Women's Cell)</a>
                   <a class="dropdown-item" href="#">Student Wellness Center(Counselling Care)</a>
                   <a class="dropdown-item" href="#">SC/ST Cell</a>

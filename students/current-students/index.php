@@ -1,6 +1,6 @@
 <?php 
 	$page = "students";
-	require_once("../_includes/config.php");	
+	require_once("../../_includes/config.php");	
 	include_once($header_path);
 ?>
 
@@ -74,11 +74,11 @@
 								<div class="card h-100">
 									<div class="card-body">
 										<p class="m-0">
-											<a href="current-students/gymkhana.php" class="font-weight-bold text-secondary">Gymkhana</a>
+											<a href="gymkhana" class="font-weight-bold text-secondary">Gymkhana</a>
 										</p>
 									</div>
 									<div class="card-footer">
-										<a href="current-students/gymkhana.php" class="btn btn-danger btn-sm">View <i class="fa fa-arrow-circle-right ml-1"></i></a>
+										<a href="gymkhana" class="btn btn-danger btn-sm">View <i class="fa fa-arrow-circle-right ml-1"></i></a>
 									</div>
 								</div>
 							</div> <!-- col-lg-4 -->

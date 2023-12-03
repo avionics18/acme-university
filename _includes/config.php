@@ -7,7 +7,7 @@
 		define("ROOT_PATH", $_SERVER["DOCUMENT_ROOT"] . BASE_URL);
 	}
 	else{
-		define("BASE_URL", "https://acme-university-website.herokuapp.com/");
+		define("BASE_URL", "https://immaterial-correlat.000webhostapp.com/");
 		define("ROOT_PATH", $_SERVER["DOCUMENT_ROOT"] . "/");
 	}
 
